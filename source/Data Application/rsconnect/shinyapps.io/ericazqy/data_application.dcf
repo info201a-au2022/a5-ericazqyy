@@ -1,0 +1,13 @@
+name: data_application
+title:
+username:
+account: ericazqy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7774900
+bundleId: 6596377
+url: https://ericazqy.shinyapps.io/data_application/
+when: 1670282807.53694
+lastSyncTime: 1670282807.53695
+asMultiple: FALSE
+asStatic: FALSE
