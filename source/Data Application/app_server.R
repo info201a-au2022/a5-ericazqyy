@@ -7,7 +7,7 @@ library("reshape2")
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-  incarceration <- read.csv("/Users/ericazhang/Documents/info201/assignments/a5-ericazqyy/source/owid-co2-data.csv")
+  incarceration <- read.csv("owid-co2-data.csv")
   incarceration_by_year <- incarceration %>%
     group_by(year) %>%
     summarise(
